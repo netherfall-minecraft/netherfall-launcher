@@ -1,0 +1,80 @@
+window {
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+}
+
+#main_box, #settings_box {
+    background: rgba(255,255,255,0.10);
+    border-radius: 24px;
+    margin: 32px 64px;
+    padding: 40px 48px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25);
+    transition: background 0.8s, box-shadow 0.5s;
+}
+
+#main_box:hover, #settings_box:hover {
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.35);
+}
+
+#info_label {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 18px;
+    margin-top: 8px;
+}
+
+#launch_btn {
+    background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+    color: #fff;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 18px 48px;
+    margin: 32px 0 0 0;
+    box-shadow: 0 4px 16px 0 rgba(67, 206, 162, 0.25);
+    transition: background 0.5s, transform 0.2s;
+}
+
+#launch_btn:hover {
+    background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%);
+    color: #232526;
+    transform: scale(1.07);
+}
+
+button {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 28px;
+    margin: 10px 0;
+    transition: background 0.5s, transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+    transform: scale(1.04);
+}
+
+label {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+#entry {
+    background: rgba(255,255,255,0.15);
+    color: #232526;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    border: none;
+    transition: background 0.4s;
+}
+
+#entry:focus {
+    background: #fff;
+    color: #232526;
+}
